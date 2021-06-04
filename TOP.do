@@ -13,4 +13,5 @@ mem load -i C:/intelFPGA/18.1/BUZZER/noteTB.mem -startaddress 0 -endaddress 6 /T
 mem load -i C:/intelFPGA/18.1/BUZZER/ledTB.mem -startaddress 0 -endaddress 6 /TOP/dut/led
 #add wave
 add wave -position insertpoint sim:/TOP/dut/*
+radix
 run -all
